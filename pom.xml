@@ -7,13 +7,10 @@
     <version>1.0-SNAPSHOT</version>
     <name>simplewebapp</name>
 
-    <properties>
-        <spring.version>5.3.15</spring.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <sonar.jacoco.reportPath>target/jacoco.exec</sonar.jacoco.reportPath>
-        <sonar.jacoco.itReportPath>target/jacoco-it.exec</sonar.jacoco.itReportPath>
-    </properties>
+<properties>
+  <sonar.organization>danieljimeneza</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
 
     <profiles>
         <profile>
